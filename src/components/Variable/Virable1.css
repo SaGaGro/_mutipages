@@ -1,0 +1,24 @@
+
+.var-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 0.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+     width: 90%; 
+    box-sizing: border-box; /* รวม padding และ border */
+    border: 2px solid black;
+}
+
+.var-border {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem; /* ลด padding ถ้าจำเป็น */
+}
+
+
+p{
+    margin: 0;
+}

@@ -1,0 +1,17 @@
+.todo-container{
+    /* border: 1px solid black; */
+    /* height: 600px; */
+}
+
+.header-select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}

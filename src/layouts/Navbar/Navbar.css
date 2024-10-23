@@ -1,0 +1,23 @@
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    position: relative;
+}
+.top{
+    position: absolute;
+    /* border: 1px solid red    ; */
+    color: black;
+    background-color: red;
+    border-radius: 100%;
+    width: 20px;
+    bottom: 20px;
+    right: -10px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}

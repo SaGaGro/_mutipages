@@ -1,0 +1,15 @@
+.app-container {
+  /* border: 1px solid blue; */
+  border-radius: 2rem;
+  width: 1020px;
+  /* height: 100vh; ทำให้สูงเท่ากับหน้าจอ */
+  display: flex;
+  justify-content: center; /* จัดตรงกลางแนวนอน */
+  align-items: center;     /* จัดตรงกลางแนวตั้ง */
+  margin: 0 auto;          /* ป้องกันการขยับของ container */
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 195, 255, 0.2);
+  box-shadow: 0 0 20px rgba(0, 195, 255, 0.3);
+  box-shadow: 0 0 30px rgba(0, 195, 255, 0.5);
+}
+

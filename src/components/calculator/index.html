@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+<div class="calculator">
+    <div class="display" id="Result">0</div>
+    <div class="all-btn">
+        <button class="clear">AC</button>
+        <button id="minusandplus">+/-</button> <!-- เพิ่ม id -->
+        <button class="operator" data-operator="÷">&divide;</button>
+        <button class="operator" data-operator="×">&times;</button>
+
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="operator" data-operator="-">&minus;</button>
+
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="operator" data-operator="+">&plus;</button>
+
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="equals">&equals;</button>
+
+        <button>0</button>
+        <button>.</button>
+    </div><br>
+</div>
+<b class="history">History: &nbsp;</b>
+<div id="history"></div>
+<script src="./index.js"></script>
+</body>
+</html>

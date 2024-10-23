@@ -1,0 +1,28 @@
+.tem-container{
+    /* margin-top: 1rem; */
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    background-color: beige;
+    height: 13rem;
+}
+
+.tem-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.1rem;
+}
+
+.tem-content span{
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    border-radius: 0.5rem;
+    padding: 0.1rem;
+}
+
+.tem-var{
+    font-weight: bold;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.1rem;
+}
